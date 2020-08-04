@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "title": "iPhone 8",
+    "price": 4399.00,
+    "num": 0,
+    "max": 10
+  },
+  {
+    "id": 2,
+    "title": "iPhone 11 Pro",
+    "price": 9999.00,
+    "num": 0,
+    "max": 20
+  }
+]

@@ -1,0 +1,63 @@
+.mine {
+  overflow-y: auto;
+  .user-detail {
+    padding: 1vw 4vw 18vw 4vw ;
+    // background-image: linear-gradient(90deg,#0af,#0085ff);
+    img {
+      width: 2.2rem;
+      height: 2.2rem;
+      border-radius: 50%;
+    }
+  }
+  .redgold {
+    height: 22.4vw;
+    box-shadow: 0 0 27px 1px #f4f4f4;
+    >div {  
+      border-radius: .15rem;
+      padding: 4vw;
+      &:nth-child(1) {
+        box-shadow: -7px 1px 40px 1px #f2f2f2;
+      }
+      &:nth-child(2) {
+        box-shadow: 7px 1px 40px 1px #f2f2f2;
+      }
+      i {
+        opacity: .3;
+      }
+    }
+  }
+  .clock-outer {
+    padding: 4vw 2vw;
+    .clock {
+      background-image: linear-gradient(to right, rgba(0, 0, 255, .04), white);
+      border: 1px solid rgba(0, 0, 255, .1);
+      border-radius: 6px;
+      .open-clock {
+        color: white;
+        background-color: #4da6f0;
+        padding: 1.5vw 4vw;
+        border-radius: 4px;
+      }
+    }
+  }
+  .choose {
+    .choose-name {
+      padding: 3.733333vw 5.766667vw 3.733333vw 0 ;
+    }
+    .choose-icon {
+      width: 6.5vw;
+      color: @mainColor;
+    }
+  }
+  .privacy {
+    a {
+      color: #4da6f0;
+    }
+  }
+}
+.color-red {
+  color: rgb(255, 95, 62);
+}
+.color-green {
+  color: rgb(106, 194, 11);
+}

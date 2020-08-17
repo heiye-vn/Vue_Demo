@@ -1,0 +1,243 @@
+.shoppingCart {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 1.5rem;
+  background-color: rgba(61, 61, 63, 0.9);
+  z-index: 10;
+
+  .mask {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.4;
+    transition: opacity 0.5s linear;
+    z-index: -100;
+  }
+
+  .productList {
+    // display: none;
+    position: fixed;
+    bottom: -22rem;
+    // bottom: -1rem;
+    width: 100%;
+    background-color: #fff;
+    z-index: -99;
+    transition: bottom 0.5s linear;
+
+    .discountTip {
+      line-height: 5.3vw;
+      font-size: 0.25rem;
+      text-align: center;
+      background-color: #fffad6;
+      opacity: 0.96;
+
+      span {
+        color: #333;
+        margin-left: 0.2rem;
+
+        i {
+          font-style: normal;
+          color: #ff5339;
+        }
+      }
+    }
+
+    .list {
+      .cartView {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 0.5rem;
+        padding: 0.4rem;
+        background-color: #eceff1;
+        color: #666;
+
+        .cartHeader {
+          display: flex;
+          align-items: center;
+          flex: 1;
+          width: 60%;
+
+          span {
+            font-size: 0.45rem;
+          }
+        }
+
+        .removeCart {
+          display: flex;
+          align-items: center;
+          width: 20%;
+          img {
+            width: 0.5rem;
+            height: 0.5rem;
+          }
+
+          span {
+            font-size: 0.3rem;
+            margin-left: 0.1rem;
+          }
+        }
+      }
+
+      .cartList {
+        overflow: auto;
+        max-height: 8rem;
+        font-size: 0.4rem;
+
+        ul {
+          margin: 0;
+          padding: 0;
+          list-style: none;
+          flex: none;
+
+          li {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0.2rem 0.3rem 0.2rem 0;
+            min-height: 1rem;
+            margin-left: 0.4rem;
+
+            .productName {
+              width: 4rem;
+              height: 0.5rem;
+              line-height: 0.5rem;
+              color: #333;
+            }
+
+            .priceTotal {
+              width: 3rem;
+              height: 0.5rem;
+              line-height: 0.5rem;
+              text-align: right;
+              color: #ff5339;
+            }
+
+            .operation {
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              width: 2rem;
+              height: 0.5rem;
+              margin-left: 0.5rem;
+
+              .reduce,
+              .add {
+                img {
+                  width: 0.6rem;
+                  height: 0.6rem;
+                }
+              }
+              .num {
+                font-size: 0.35rem;
+                color: rgba(0, 0, 0, 0.87);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .left {
+    width: 1.3rem;
+    height: 1.3rem;
+
+    .has {
+      background-color: #3190e8;
+    }
+
+    .none {
+      background-color: #666;
+    }
+
+    .cartIcon {
+      position: absolute;
+      left: 0.3rem;
+      bottom: 0.4rem;
+      width: 1.3rem;
+      height: 1.3rem;
+      // background-color: #3190e8;
+
+      box-sizing: border-box;
+      border-radius: 100%;
+      border: 0.13rem solid #444;
+      z-index: 12;
+
+      .num {
+        position: absolute;
+        top: -0.1rem;
+        right: -0.1rem;
+        width: 0.4rem;
+        height: 0.4rem;
+        line-height: 0.4rem;
+        font-size: 0.25rem;
+        background-image: linear-gradient(-90deg, #ff7416, #ff3c15 98%);
+        color: #fff;
+        border-radius: 100%;
+        text-align: center;
+      }
+    }
+
+    .cartIcon::before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2aWV3Qm94PSIwIDAgNTggNTgiPjxkZWZzPjxmaWx0ZXIgaWQ9ImEiIHdpZHRoPSIyMDAlIiBoZWlnaHQ9IjIwMCUiIHg9Ii01MCUiIHk9Ii01MCUiIGZpbHRlclVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCI+PGZlT2Zmc2V0IGluPSJTb3VyY2VBbHBoYSIgcmVzdWx0PSJzaGFkb3dPZmZzZXRPdXRlcjEiLz48ZmVHYXVzc2lhbkJsdXIgaW49InNoYWRvd09mZnNldE91dGVyMSIgcmVzdWx0PSJzaGFkb3dCbHVyT3V0ZXIxIiBzdGREZXZpYXRpb249IjEuNSIvPjxmZUNvbG9yTWF0cml4IGluPSJzaGFkb3dCbHVyT3V0ZXIxIiByZXN1bHQ9InNoYWRvd01hdHJpeE91dGVyMSIgdmFsdWVzPSIwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwLjA4IDAiLz48ZmVNZXJnZT48ZmVNZXJnZU5vZGUgaW49InNoYWRvd01hdHJpeE91dGVyMSIvPjxmZU1lcmdlTm9kZSBpbj0iU291cmNlR3JhcGhpYyIvPjwvZmVNZXJnZT48L2ZpbHRlcj48cGF0aCBpZD0iYiIgZD0iTTcuNjE0IDQuMDUxYy0xLjA2Ni4wODYtMS40NTItLjM5OC0xLjc1Mi0xLjU4NEM1LjU2MiAxLjI4LjMzIDUuODguMzMgNS44OGwzLjcxIDE5LjQ3NmMwIC4xNDgtMS41NiA3LjUxNS0xLjU2IDcuNTE1LS40ODkgMi4xOS4yOTIgNC4yNyAzLjU2IDQuMzIgMCAwIDM2LjkxNy4wMTcgMzYuOTIuMDQ3IDEuOTc5LS4wMTIgMi45ODEtLjk5NSAzLjAxMy0zLjAzOS4wMy0yLjA0My0xLjA0NS0yLjk3OC0yLjk4Ny0yLjk5M0w4LjgzIDMxLjE5MnMuODYtMy44NjUgMS4wNzctMy44NjVjMCAwLTUuNzg4LjEyMiAzMi4wNjUtMS45NTYuNjA2LS4wMzMgMi4wMTgtLjc2NCAyLjI5OC0xLjg0OCAxLjExMy00LjMxNyA0LjAwOC0xMy4yNiA0LjQ1OC0xNS42NC45MzItNC45MjUgMi4wNjEtOC41NTgtNC4yOC03LjQwNSAwIDAtMzUuNzY4IDMuNDg3LTM2LjgzMyAzLjU3M3oiLz48L2RlZnM+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIiBmaWx0ZXI9InVybCgjYSkiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDMgMikiPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDUuMDM4IDcuODA4KSI+PG1hc2sgaWQ9ImMiIGZpbGw9IiNmZmYiPjx1c2UgeGxpbms6aHJlZj0iI2IiLz48L21hc2s+PHVzZSBmaWxsPSIjRkZGIiB4bGluazpocmVmPSIjYiIvPjxwYXRoIGZpbGw9IiMyMDczQzEiIGQ9Ik01My45NjIgNy43NzRsLTUuNzAxIDE5LjMwNS00MC43OCAxLjU3NHoiIG1hc2s9InVybCgjYykiIG9wYWNpdHk9Ii4xIi8+PC9nPjxwYXRoIHN0cm9rZT0iI0ZGRiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2Utd2lkdGg9IjYiIGQ9Ik05LjM3NCAxOC43MjJTNy44NjggMTEuMjgzIDcuMzIzIDguNzFDNi43NzggNi4xMzYgNS44NiA1LjMzIDMuOTc4IDQuNTIgMi4wOTYgMy43MTMuMzY3IDIuMjg2LjM2NyAyLjI4NiIvPjxjaXJjbGUgY3g9IjQ2IiBjeT0iNTEiIHI9IjQiIGZpbGw9IiNGRkYiLz48Y2lyY2xlIGN4PSIxMiIgY3k9IjUxIiByPSI0IiBmaWxsPSIjRkZGIi8+PC9nPjwvc3ZnPg==)
+        50% no-repeat;
+      background-size: 0.6rem;
+      content: "";
+    }
+  }
+
+  .center {
+    width: 30%;
+    height: 100%;
+    padding-top: 0.5rem;
+    margin-left: -1rem;
+    font-size: 0.3rem;
+    color: #999;
+
+    span {
+      display: block;
+    }
+
+    .totalPrice {
+      color: #fff;
+      font-size: 0.5rem;
+    }
+  }
+
+  .right {
+    width: 30%;
+    height: 100%;
+    line-height: 1.5rem;
+    text-align: center;
+    font-size: 0.4rem;
+    font-weight: 700;
+    color: #fff;
+    background-color: #535356;
+  }
+
+  .right_ {
+    width: 30%;
+    height: 100%;
+    line-height: 1.5rem;
+    text-align: center;
+    font-size: 0.4rem;
+    font-weight: 700;
+    color: #fff;
+    background-color: #38ca73;
+  }
+}

@@ -1,0 +1,194 @@
+[
+    {
+        "id": 0,
+        "tit": {
+            "name": "热销",
+            "desc": "大家喜欢吃，才叫真好吃"
+        },
+        "child": [
+            {
+                "id_": 0,
+                "foodPic": "https://cube.elemecdn.com/2/bb/49b40ec0dd0c1e9792f4d2cf8f2fcpng.png?x-oss-process=image/resize,m_lfit,w_141,h_141/watermark,g_se,x_4,y_4,image_YS8xYS82OGRlYzVjYTE0YjU1ZjJlZmFhYmIxMjM4Y2ZkZXBuZy5wbmc_eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsUF8yOA%3D%3D/quality,q_90/format,webp",
+                "foodName": "菠菜肉骨头",
+                "foodDesc": "菠菜汁揉入面团，搭配咸香肉松与甜脆玉米粒，口感咸润松软 主要原料：菠菜",
+                "sale": 91,
+                "favorableRate": "100%",
+                "price": {
+                    "num": 18,
+                    "postfix": ""
+                },
+                "productNum": 0
+            },
+            {
+                "id_": 1,
+                "foodPic": "https://cube.elemecdn.com/d/84/5e97cf49b1a1ca66da2c2628f2823png.png?x-oss-process=image/resize,m_lfit,w_141,h_141/watermark,g_se,x_4,y_4,image_YS8xYS82OGRlYzVjYTE0YjU1ZjJlZmFhYmIxMjM4Y2ZkZXBuZy5wbmc_eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsUF8yOA%3D%3D/quality,q_90/format,webp",
+                "foodName": "芝士",
+                "foodDesc": "奈雪特制芝士奶盖，奶香十足，甜中混着一丝咸，更清爽不腻口 主要原料：其他",
+                "sale": 6,
+                "favorableRate": "0.0%",
+                "price": {
+                    "num": 7,
+                    "postfix": ""
+                },
+                "productNum": 0
+            },
+            {
+                "id_": 2,
+                "foodPic": "https://cube.elemecdn.com/f/c7/1766c1a47156ba8db31d3b0c4e2b2png.png?x-oss-process=image/resize,m_lfit,w_141,h_141/watermark,g_se,x_4,y_4,image_YS8xYS82OGRlYzVjYTE0YjU1ZjJlZmFhYmIxMjM4Y2ZkZXBuZy5wbmc_eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsUF8yOA%3D%3D/quality,q_90/format,webp",
+                "foodName": "霸气榴莲王",
+                "foodDesc": "马来西亚D24榴莲王果肉+芒果干，爆浆的榴莲馅，这款是榴莲控的爱 主要原料：榴莲",
+                "sale": 51,
+                "favorableRate": "100%",
+                "price": {
+                    "num": 22,
+                    "postfix": "起"
+                },
+                "productNum": 0
+            },
+            {
+                "id": 3,
+                "foodPic": "https://cube.elemecdn.com/0/48/c49ac7ca1978e2f486245d4e10c56png.png?x-oss-process=image/resize,m_lfit,w_141,h_141/watermark,g_se,x_4,y_4,image_YS8xYS82OGRlYzVjYTE0YjU1ZjJlZmFhYmIxMjM4Y2ZkZXBuZy5wbmc_eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsUF8yOA%3D%3D/quality,q_90/format,webp",
+                "foodName": "黑糖宝藏茶",
+                "foodDesc": "【外送为奶盖顶默认分装】奶油系列马上饮用口感更佳外卖暂不上线；顶料有坚果碎，以鲜牛奶为底，不含茶，加入手工熬煮Q弹黑糖珍珠。（本产品的甜度来源于食材本身，没有额外加糖，不能调整糖度）主要原料：牛奶",
+                "sale": 100,
+                "favorableRate": "100%",
+                "price": {
+                    "num": 16,
+                    "postfix": "起"
+                },
+                "productNum": 0
+            },
+            {
+                "id_": 4,
+                "foodPic": "https://cube.elemecdn.com/7/33/47427181c8b5c6fe53adec399a333png.png?x-oss-process=image/resize,m_lfit,w_141,h_141/watermark,g_se,x_4,y_4,image_YS8xYS82OGRlYzVjYTE0YjU1ZjJlZmFhYmIxMjM4Y2ZkZXBuZy5wbmc_eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsUF8yOA%3D%3D/quality,q_90/format,webp",
+                "foodName": "梅菜肉肉",
+                "foodDesc": "用经典粤菜梅菜扣肉做馅，口味咸香不而浓烈，摊成薄薄的饼状烘焙到更多面积，加上芝麻粒烤的酥香可口 主要原料：猪肉",
+                "sale": 100,
+                "favorableRate": "100%",
+                "price": {
+                    "num": 20,
+                    "postfix": ""
+                },
+                "productNum": 0
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "tit": {
+            "name": "当季推荐 ",
+            "desc": ""
+        },
+        "child": [
+            {
+                "id_": 5,
+                "foodPic": "https://cube.elemecdn.com/e/d5/ad6c3d29c91ffe5dd86e06641febfpng.png?x-oss-process=image/resize,m_lfit,w_141,h_141/watermark,g_se,x_4,y_4,image_YS8xYS82OGRlYzVjYTE0YjU1ZjJlZmFhYmIxMjM4Y2ZkZXBuZy5wbmc_eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsUF8yOA%3D%3D/quality,q_90/format,webp",
+                "foodName": "霸气芝士绿宝石瓜",
+                "foodDesc": "好茶配好瓜，喝了还想它！当季绿宝石瓜和奈雪特制栀子乌龙茶搭配，口感清脆水晶冻加在底部，如翡翠一般通透 主要原料：其他",
+                "sale": 25,
+                "favorableRate": "0.0%",
+                "price": {
+                    "num": 27,
+                    "postfix": "起"
+                },
+                "productNum": 0
+            },
+            {
+                "id_": 6,
+                "foodPic": "https://cube.elemecdn.com/8/22/a361037297a67dae2aaa3acc42c83png.png?x-oss-process=image/resize,m_lfit,w_141,h_141/watermark,g_se,x_4,y_4,image_YS8xYS82OGRlYzVjYTE0YjU1ZjJlZmFhYmIxMjM4Y2ZkZXBuZy5wbmc_eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsUF8yOA%3D%3D/quality,q_90/format,webp",
+                "foodName": "霸气芝士车厘子",
+                "foodDesc": "霸气车厘子加入香甜轻盈的芝士奶盖,醇香回甘 主要原料：水",
+                "sale": 300,
+                "favorableRate": "92%",
+                "price": {
+                    "num": 36,
+                    "postfix": "起"
+                },
+                "productNum": 0
+            },
+            {
+                "id_": 7,
+                "foodPic": "https://cube.elemecdn.com/8/22/a361037297a67dae2aaa3acc42c83png.png?x-oss-process=image/resize,m_lfit,w_141,h_141/watermark,g_se,x_4,y_4,image_YS8xYS82OGRlYzVjYTE0YjU1ZjJlZmFhYmIxMjM4Y2ZkZXBuZy5wbmc_eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsUF8yOA%3D%3D/quality,q_90/format,webp",
+                "foodName": "霸气芝士车厘子",
+                "foodDesc": "霸气车厘子加入香甜轻盈的芝士奶盖,醇香回甘 主要原料：水",
+                "sale": 300,
+                "favorableRate": "92%",
+                "price": {
+                    "num": 36,
+                    "postfix": "起"
+                },
+                "productNum": 0
+            },
+            {
+                "id_": 8,
+                "foodPic": "https://cube.elemecdn.com/c/ad/e7f30ad029b02d548f13de862298apng.png?x-oss-process=image/resize,m_lfit,w_141,h_141/watermark,g_se,x_4,y_4,image_YS8xYS82OGRlYzVjYTE0YjU1ZjJlZmFhYmIxMjM4Y2ZkZXBuZy5wbmc_eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsUF8yOA%3D%3D/quality,q_90/format,webp",
+                "foodName": "北海道云朵吐司",
+                "foodDesc": "24小时低温慢发酵,手撕层次分明、软绵细腻、奶香四溢 主要原料：其他",
+                "sale": 95,
+                "favorableRate": "100%",
+                "price": {
+                    "num": 22,
+                    "postfix": ""
+                },
+                "productNum": 0
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "tit": {
+            "name": "噗呲鲜果气泡茶 ",
+            "desc": ""
+        },
+        "child": [
+            {
+                "id_": 9,
+                "foodPic": "https://cube.elemecdn.com/5/fe/252e22a63c41504277f0240da53b3png.png?x-oss-process=image/resize,m_lfit,w_141,h_141/watermark,g_se,x_4,y_4,image_YS8xYS82OGRlYzVjYTE0YjU1ZjJlZmFhYmIxMjM4Y2ZkZXBuZy5wbmc_eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsUF8yOA%3D%3D/quality,q_90/format,webp",
+                "foodName": "噗呲水蜜桃气泡茶",
+                "foodDesc": "噗呲鲜果气泡茶新成员,草莓和水蜜桃鲜果首次搭配水晶,整杯饮品口感丰富、气泡感十足 主要原料：其他",
+                "sale": 100,
+                "favorableRate": "100%",
+                "price": {
+                    "num": 29,
+                    "postfix": "起"
+                },
+                "productNum": 0
+            },
+            {
+                "id_": 10,
+                "foodPic": "https://cube.elemecdn.com/a/b4/71b20fe060322f25915472f1be028png.png?x-oss-process=image/resize,m_lfit,w_141,h_141/watermark,g_se,x_4,y_4,image_YS8xYS82OGRlYzVjYTE0YjU1ZjJlZmFhYmIxMjM4Y2ZkZXBuZy5wbmc_eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsUF8yOA%3D%3D/quality,q_90/format,webp",
+                "foodName": "噗呲柠檬气泡茶",
+                "foodDesc": "【标准冰、标准糖】奈雪特有桂圆香气的金色气泡茶搭配柠檬茶,加入秘制冰感武器,噗呲一”夏”,冰”气十足 主要原料：其他",
+                "sale": 100,
+                "favorableRate": "100%",
+                "price": {
+                    "num": 18,
+                    "postfix": "起"
+                },
+                "productNum": 0
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "tit": {
+            "name": "宝藏鲜奶茶",
+            "desc": ""
+        },
+        "child": [
+            {
+                "id_": 11,
+                "foodPic": "https://cube.elemecdn.com/e/ea/9ad47d7906db2d831f51f03f101ffpng.png?x-oss-process=image/resize,m_lfit,w_141,h_141/watermark,g_se,x_4,y_4,image_YS8xYS82OGRlYzVjYTE0YjU1ZjJlZmFhYmIxMjM4Y2ZkZXBuZy5wbmc_eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsUF8yOA%3D%3D/quality,q_90/format,webp",
+                "foodName": "浓郁豆乳宝藏茶",
+                "foodDesc": "【标准糖】日本精选抹茶加入原味豆奶中,上层醇香奶油和厚厚一层豆粉,插入吸管咬一口红豆爆爆珠,体验丰富口感 主要原料：水",
+                "sale": 216,
+                "favorableRate": "89%",
+                "price": {
+                    "num": 26,
+                    "postfix": ""
+                },
+                "productNum": 0
+            }
+        ]
+    }
+]

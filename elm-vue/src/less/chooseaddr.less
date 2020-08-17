@@ -1,0 +1,28 @@
+.chooseaddr {
+  line-height: 10vw;
+  .searchaddr {
+    background-color: @mainColor;
+    .localcity {
+      &::after {
+        position: absolute;
+        content: '';
+        right: 0;
+        top: 50%;
+        transform: translate(0, -50%);
+        border: .15rem solid transparent;
+        border-top-color: white;
+        border-bottom: none;
+      }
+    }
+    input {
+      border-radius: 3px;
+      border: none;
+      outline: none;
+    }
+  }
+  .location {
+    color: @mainColor;
+  }
+  .search-result {
+  }
+}

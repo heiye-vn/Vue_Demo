@@ -1,0 +1,43 @@
+.choosecity {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  .searchinp {
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 5;
+    input {
+      border-radius: 4.5vw;
+      line-height: 9vw;
+      width: 100%;
+      box-sizing: border-box;
+      &::after {
+        content: '';
+      }
+    }
+  }
+  .cities {
+    padding-top: 13vw;
+    overflow-y: auto;
+    width: 100%;
+    top: 14vw;
+    bottom: 0;
+    .aside-nav {
+      right: 0;
+      z-index: 10;
+      top: 50%;
+      transform: translate(0, -40%);
+      >div {
+        width: 9vw;
+        line-height: 6vw;
+      }
+    }
+    .nowcity {
+      top: 27vw;
+      width: 100%;
+      z-index: 5;
+    }
+  }
+}

@@ -36,5 +36,6 @@ module.exports = {
 
 #### 2.仿饿了么h5
 
-​		该项目为h5+vue版饿了么，实现了移动端适配，商品首页，商家详情页，购物车商品逻辑，个人中心等功能，主要使用了vue + vue router + Vuex + axios + 移动端适配 + vant 等 
+​		该项目为h5+vue版饿了么，实现了移动端适配，商品首页，商家详情页，购物车商品逻辑，个人中心等功能，主要使用了vue + vue router + Vuex + axios + 移动端适配 + vant 等
+
 
